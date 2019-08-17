@@ -25,6 +25,6 @@
 </div>
 </body>
   <footer>
-    <small>&copy; Copyright 2019, LuxHome</small>
+    <small>&copy; Copyright 2018, LuxHome</small>
   </footer>
 </html>
