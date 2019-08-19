@@ -41,6 +41,7 @@ if (isset($_POST['login-submit'])) {
         }
         else {
           header("Location: ../login.php?error=WrongPassword");
+          echo '<p><b>The password you have entered is incorrect!</b></p>';
           exit();
         }
       }
