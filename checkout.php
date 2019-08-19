@@ -1,8 +1,11 @@
 <?php
-  include 'header.php';
 //  pre_r($_SESSION);
-
-
+session_start();
+  if(!isset($_SESSION['ID']) || (int)$_SESSION['ID'] <= 0){
+    header("Location:login.php");
+    exit();
+  }
+  include 'header.php';
 ?>
 
 

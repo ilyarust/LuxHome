@@ -1,5 +1,6 @@
 <?php
-  include 'header.php'
+  include 'header.php';
+  //pre_r($_SESSION);
 ?>
 
 

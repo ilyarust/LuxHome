@@ -10,6 +10,7 @@
       }
     }
     $_SESSION['cart'] = array_values($_SESSION['cart']);
+    echo '<p><b>Product has been removed!</b></p>';
   }
 
   //function for updating quantity in Cart
@@ -20,6 +21,7 @@
         $_SESSION['cart'][$key]['Quantity'] = (int)$_POST['Quantity'][$key];
       }
     }
+    echo '<p><b>Quantity has been Updated!</b></p>';
 
   }
  ?>
