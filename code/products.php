@@ -95,6 +95,8 @@ if(filter_input(INPUT_POST, 'add_to_cart')){
       endwhile;
     endif;
   endif;
+
+  pre_r($query);
   ?>
 
 
